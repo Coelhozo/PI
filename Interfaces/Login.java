@@ -1,14 +1,14 @@
+package Interfaces;
 import java.awt.Font;
-
 import javax.swing.*;
 import Interfaces.Components.Butao;
 //import java.awt.*;
 public class Login {
     int telaHeight = 450, telaWidth = 400, textoHeight = 25, textoWidth = 200, gap = 30, paddinTop = 55;
-    Login(){
+    public Login(){
         JFrame tela = new JFrame();
 
-        JLabel titulo = new JLabel("LOGIN");
+        JLabel titulo = new JLabel("ENTRAR");
         titulo.setFont(new Font("Arial", Font.BOLD, textoHeight));
         titulo.setBounds(telaWidth - 3*textoWidth/2, textoHeight+paddinTop, textoWidth, textoHeight);
         titulo.setHorizontalAlignment(JTextField.CENTER);
